@@ -1,8 +1,8 @@
 import contextlib
 import unittest
 
-from coinmarketcap import CoinMarketCap
-from coinmarketcap.exceptions import *
+from coinmarketcap_pro import CoinMarketCap
+from coinmarketcap_pro.exceptions import *
 
 
 @contextlib.contextmanager

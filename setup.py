@@ -7,7 +7,7 @@ try:
     from setuptools import setup
 except ImportError:
     from distutils.core import setup
-from coinmarketcap import __version__
+from coinmarketcap_pro import __version__
 
 here = os.path.abspath(os.path.dirname(__file__))
 
@@ -20,7 +20,7 @@ setup(
     author='Jiawei Xu',
     author_email='contactxjw@gmail.com',
     url='https://github.com/xjw0914/coinmarketcap-pro-api',
-    packages=['coinmarketcap'],
+    packages=['coinmarketcap_pro'],
     description='Python wrapper for CoinMarketCap Professional API',
     long_description=long_description,
     long_description_content_type='text/markdown',
